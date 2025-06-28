@@ -1,0 +1,15 @@
+name: Add new issues to GitHub Project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add_to_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to GitHub project
+        uses: actions/add-to-project@v1.0.1
+        with:
+          project-url: https://github.com/your-username/ema-express-server/projects/1
+          github-token: ${{ secrets.GITHUB_TOKEN }}
