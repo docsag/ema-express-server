@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/docsag/ema-express-server#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.50.2",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^17.0.0",
