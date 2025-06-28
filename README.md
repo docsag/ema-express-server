@@ -33,7 +33,7 @@ This is a complete backend server for an Ecological Momentary Assessment (EMA) a
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/your-username/ema-express-server.git
+git clone https://github.com/docsag/ema-express-server.git
 cd ema-express-server
 ```
 
