@@ -1,0 +1,27 @@
+{
+  "name": "ema-express-server",
+  "version": "1.0.0",
+  "description": "This is a complete backend server for an Ecological Momentary Assessment (EMA) app, built with Node.js, Express, and Supabase.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docsag/ema-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docsag/ema-express-server/issues"
+  },
+  "homepage": "https://github.com/docsag/ema-express-server#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  }
+}
